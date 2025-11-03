@@ -29,7 +29,7 @@ const RotasProtegidas = () => {
         style={{ marginLeft: "350px" }}
       >
         <Container fluid>
-          <h1>Conteúdo Principal</h1>
+          <Outlet />
         </Container>
       </div>
     </div>

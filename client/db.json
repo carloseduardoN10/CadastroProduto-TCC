@@ -24,5 +24,18 @@
       "tipo": "Funcionário",
       "imagemUrl": "https://i.pinimg.com/736x/b2/79/44/b2794415016ee72dcf75fdc904a3c7f5.jpg"
     }
+  ],
+  "produtos": [
+
+    {
+      "id": "7aba",
+      "nome": "Refrigerante dolly",
+      "codigo": "1234",
+      "descricao": "Dolly guarana. O sabor brasileiro, dolly dolly dolly.........",
+      "dataEntrada": "2025-11-06",
+      "tipoProduto": "Bebidas",
+      "dataValidade": "2026-01-23",
+      "valor": "7.00"
+    }
   ]
 }
