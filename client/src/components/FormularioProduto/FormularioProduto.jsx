@@ -51,7 +51,8 @@ const { inserirProduto } = useInserirProduto();
 
   return (
     <div className="text-center">
-      <Form className="mt-3 w-full" onSubmit={handleSubmit(onSubmit, onError)}>
+      <Form className="mt-3 w-full" onSubmit={handleSubmit(onSubmit, onError)}
+      style={{maxWidth:"600px", marginLeft:"120px"}}>
         <Form.Label as="h1" className="text-center mb-4 text-white">
           {" "}
           Cadastrar Produto{" "}
